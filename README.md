@@ -6,7 +6,7 @@
 
 The goal of this project is to analyze Social Network techniques. Its process is complex and it is performed by several steps, which I will analyze below in this report.
 
-For this project I have use `R` (programming language), but also an open-source software for network visualization and analysis: `Gephi`.
+For this project I use `R` (programming language), but also an open-source software for network visualization and analysis: `Gephi`.
 
 The first phase of Social Network Analysis includes collecting and selecting datasets that can be useful for further analysis. In my case, I analyzed and considered from [kaggle.com](https://www.kaggle.com/) dataframes regarding the Marvel universe, all comic books and their respective heroes within them.
 
@@ -19,7 +19,7 @@ With this project, I wanted to analyze the network of the heroes, that is, the e
 
 ## INTRODUCTION
 
-I upload dataset:
+I uploaded dataset:
 
 ```r
 edges_df <- read.csv(file = "~/path/edges.csv")
