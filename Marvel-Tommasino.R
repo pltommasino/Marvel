@@ -4,8 +4,8 @@ library(tidyverse)
 library(igraph)
 library(threejs)
 
-edges_df <- read.csv(file = "~/Desktop/Pasquale/2\ ANNO/Social\ Network\ Analysis/progetto/archive/edges.csv")
-hero_df <- read.csv(file = "~/Desktop/Pasquale/2\ ANNO/Social\ Network\ Analysis/progetto/archive/hero-network.csv")
+edges_df <- read.csv(file = "data/edges.csv")
+hero_df <- read.csv(file = "data/hero-network.csv")
 
 edges_df_su <- edges_df %>%
   select(hero) %>%
