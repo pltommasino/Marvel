@@ -10,9 +10,9 @@ For this project I use `R` (programming language), but also an open-source softw
 
 The first phase of Social Network Analysis includes collecting and selecting datasets that can be useful for further analysis. In my case, I analyzed and considered from [kaggle.com](https://www.kaggle.com/) dataframes regarding the Marvel universe, all comic books and their respective heroes within them.
 
-Everything presented within this file, can be easily reproduced with the R file, and can be viewable in Gephi (all graphs can be taken in the 'GEPHI Graph' folder).
+Everything presented within this file, can be easily reproduced with the R file (in /code folder), and can be viewable in Gephi (all graphs can be taken in the /gephi folder).
 
-With this project, I wanted to analyze the network of the heroes, that is, the encounters they had within each individual comic book. I decided to analyze the social network of the Marvel universe, using 2 datasets:
+With this project, I wanted to analyze the network of the heroes, that is, the encounters they had within each individual comic book. I decided to analyze the social network of the Marvel universe, using 2 datasets (in /data folder):
 
 * `edges.csv`: represents the heroes' paths and relationships within the social network, consisting of hero (hero) and comic (comic in which he appears).
 * `hero.csv`: represents the encounters (relationships) between heroes specifically, composed of hero1 and hero2.
